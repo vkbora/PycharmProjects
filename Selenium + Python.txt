@@ -1,0 +1,14 @@
+Webdriver Manager : 
+https://github.com/SergeyPirogov/webdriver_manager
+
+
+PyTest:
+Install -- pip install pytest
+Check -- pip list
+FileName -- test_*.py or *_test.py
+Class name should start with Test
+https://docs.pytest.org/en/stable/contents.html
+
+
+SiteForTesting :
+https://admin-demo.nopcommerce.com/
