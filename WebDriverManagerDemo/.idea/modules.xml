@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../nopcommerceApp/.idea/NOPcommerceApp.iml" filepath="$PROJECT_DIR$/../nopcommerceApp/.idea/NOPcommerceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Practice/.idea/Practice.iml" filepath="$PROJECT_DIR$/../Practice/.idea/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PyTestDemo/.idea/PyTestDemo.iml" filepath="$PROJECT_DIR$/../PyTestDemo/.idea/PyTestDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SeleniumWebdriver/.idea/SeleniumWebdriver.iml" filepath="$PROJECT_DIR$/../SeleniumWebdriver/.idea/SeleniumWebdriver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WebDriverManagerDemo.iml" filepath="$PROJECT_DIR$/.idea/WebDriverManagerDemo.iml" />
