@@ -72,6 +72,9 @@ a, b = 10, 20
 class SA:
     a, b = 100, 200
 
+    def __init__(self):
+        print("This is class SA constructor")
+
     def m1(self):
         print("This is method one from class SA")
 
@@ -79,18 +82,28 @@ class SA:
 class SB(SA):
     a, b = 1000, 2000
 
+    def __init__(self):
+        print("This is class SB constructor")
+        super().__init__()  # Parent class constructor
+        SA.__init__(self)  # Parent class constructor
+
     def m1(self, a, b):
         print("This is method one from class SB")
-        print(a + b)        # Local Variables
-        print(self.a + self.b)      # Child class Variables
-        print(super().a + super().b)        # Parent class variables
-        print(globals()["a"] + globals()["b"])      # globals variables
+        print(a + b)  # Local Variables
+        print(self.a + self.b)  # Child class Variables
+        print(super().a + super().b)  # Parent class variables
+        print(SA.a + SA.b)  # Parent class variables
+        print(globals()["a"] + globals()["b"])  # globals variables
 
     def m2(self):
         print("This is method two from class SB")
-        self.m1(10000, 20000)       # Child class method
-        super().m1()        # Parent class method
+        self.m1(10000, 20000)  # Child class method
+        super().m1()  # Parent class method
+        SA.m1(self)  # Parent class method
 
 
 CSB = SB()
 CSB.m2()
+
+
+
